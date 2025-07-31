@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="**\*.cs" />
+    <Content Include="**\*.cs" Exclude="obj\**\*;bin\**\*" />
   </ItemGroup>
 
 </Project>
