@@ -1,4 +1,6 @@
-﻿namespace Nefarius.Shared.PdbUtils.Extensions;
+﻿using JetBrains.Annotations;
+
+namespace Nefarius.Shared.PdbUtils.Extensions;
 
 internal static class MsPdbExtensions
 {
@@ -6,6 +8,7 @@ internal static class MsPdbExtensions
     ///     Grabs the original file name from the PDB stream.
     /// </summary>
     /// <returns>The PDB name or null if not found.</returns>
+    [UsedImplicitly]
     public static string? GetOriginalPdbName(this MsPdb pdb)
     {
         MsPdb.UModuleInfo? pdbModule = pdb.DbiStream.ModulesList.Items
