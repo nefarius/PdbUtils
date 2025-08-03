@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36327.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nefarius.Shared.PdbUtils", "Nefarius.Shared.PdbUtils.csproj", "{990EFA7C-EA7E-0186-0CA5-9307F019B120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nefarius.Shared.PdbUtils", "src\Nefarius.Shared.PdbUtils.csproj", "{990EFA7C-EA7E-0186-0CA5-9307F019B120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
