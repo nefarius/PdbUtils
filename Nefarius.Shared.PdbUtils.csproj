@@ -1,14 +1,19 @@
-<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-    <GenerateMSBuildEditorConfigFile>False</GenerateMSBuildEditorConfigFile>
-    <RootNamespace>Nefarius.Shared.PdbUtils</RootNamespace>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net8.0;net9.0</TargetFrameworks>
+        <RootNamespace>Nefarius.Shared.PdbUtils</RootNamespace>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="**\*.cs" Exclude="obj\**\*;bin\**\*" />
-  </ItemGroup>
+    <PropertyGroup>
+        <MinVerTagPrefix>v</MinVerTagPrefix>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MinVer" Version="6.0.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
 
 </Project>
