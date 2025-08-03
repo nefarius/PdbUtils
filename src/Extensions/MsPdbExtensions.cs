@@ -2,7 +2,7 @@
 
 namespace Nefarius.Shared.PdbUtils.Extensions;
 
-internal static class MsPdbExtensions
+public static class MsPdbExtensions
 {
     /// <summary>
     ///     Grabs the original file name from the PDB stream.
