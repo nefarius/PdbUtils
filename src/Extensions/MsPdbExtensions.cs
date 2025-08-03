@@ -1,7 +1,4 @@
-﻿using System;
-using Kaitai;
-
-namespace Nefarius.Shared.PdbUtils.Extensions;
+﻿namespace Nefarius.Shared.PdbUtils.Extensions;
 
 internal static class MsPdbExtensions
 {
