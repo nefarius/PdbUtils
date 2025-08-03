@@ -2,6 +2,8 @@
 
 ## Usage
 
+Consume as a Git submodule in your project(s):
+
 ```bash
 git submodule add https://github.com/nefarius/PdbUtils.git ./pdbutils
 ```
