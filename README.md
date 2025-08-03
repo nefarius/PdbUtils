@@ -1,4 +1,8 @@
-# PdbUtils
+# <img src="assets/NSS-128x128.png" align="left" />Nefarius.Utilities.PDB
+
+WIP
+
+<!--
 
 ## Usage
 
@@ -12,10 +16,11 @@ Assuming your main project is `<ProjectRootDir>/src/webapp.csproj` put the follo
 
 ```xml
     <ItemGroup>
-        <!-- Nefarius.Shared.PdbUtils -->
         <Compile Include="..\pdbutils\**\*.cs" LinkBase="Shared" Visible="false" />
     </ItemGroup>
 ```
+
+-->
 
 ## Used by
 
