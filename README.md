@@ -15,6 +15,11 @@ Assuming your main project is `<ProjectRootDir>/src/webapp.csproj` put the follo
     </ItemGroup>
 ```
 
+## Used by
+
+- [WinDbgSymbolsCachingProxy](https://github.com/nefarius/WinDbgSymbolsCachingProxy)
+- [Nefarius.Utilities.ETW](https://github.com/nefarius/Nefarius.Utilities.ETW)
+
 ## Sources
 
 - [`Microsoft.Build.NoTargets`](https://github.com/dotnet/sdk/issues/2511#issuecomment-2800573169)
